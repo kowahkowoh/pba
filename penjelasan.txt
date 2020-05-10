@@ -1,0 +1,30 @@
+awalnya akan membuka file covid19corpus.txt
+
+kemudian di read dan di dijadikan huruf kecil semua
+
+kemudian di tokenisasi per kalimat dan ditokenisasi per kata
+
+kemudian lematisasinya menggunakan wordNetLemmatizer api dari nltk
+
+kemudian dibersihkan tanda baca
+
+kemudian memanggil method main()
+di method main ini akan konek dengan api telegram yang akan di loop secara terus menerus untuk menunggu ada inputan yang masuk dari aplikasi telegram
+
+jika ada inputan maka akan memanggil method echo yang nantinya akan membaca text inputan dan akan disaring terlebih dahulu 
+
+kemudian intinya ke jalur method response dimana didalam method tersebut akan menghitung kecocokan query input dengan corpus yang sudah diproses dan
+
+inputan tersebut diproses menggunakan metode tfidf yang akan menghasilkan cosine similarity dan akan mengembalikan outputan berupa hasil proses tersebut jika nilai cosine similarity nya lebih dari 0.2 dan akan mengembalikan outpuan "tidak dikenali kalimat tersebut" jika nilai cosine similarity nya dibawah 0.2
+
+
+
+
+
+
+
+
+
+
+
+
