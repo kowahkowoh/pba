@@ -110,15 +110,7 @@ def echo(bot):
             	elif inputan == 'help':
             		update.message.reply_text("Nama saya Covidbot. Saya akan mencoba menjawab pertanyaan kamu seputar COVID-19. ")
             		
-            	elif inputan == 'dimana pia tinggal?':
-            		update.message.reply_text("Kayangan kata dia")
             	
-            	elif inputan == 'disana minum apa?':
-            		update.message.reply_text("air suci")
-            	
-            	
-            	elif inputan == 'emang disana ada gereja?':
-            		update.message.reply_text("eh ... masa kubilang air zam-zam")
             		
             	else:
             		if greeting(inputan)!=None:
